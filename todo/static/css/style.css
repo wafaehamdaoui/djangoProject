@@ -1,0 +1,49 @@
+ /* CSS styles for the todo app */
+ body {
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .todo-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .todo-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  .todo-item label {
+    flex-grow: 1;
+    word-break: break-word;
+  }
+
+  .add-todo {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .add-todo input[type="text"] {
+    flex-grow: 1;
+    padding: 5px;
+  }
+
+  .add-todo button {
+    margin-left: 10px;
+    padding: 5px 10px;
+  }
